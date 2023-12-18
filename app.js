@@ -10,6 +10,7 @@ var webapplikationerRouter = require('./routes/webapplikationer');
 var computersprogRouter = require('./routes/computersprog');
 var computersprog1Router = require('./routes/computersprog1');
 var apiRouter = require('./routes/api');
+var webapplikationer1Router = require('./routes/webapplikationer1');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/webapplikationer', webapplikationerRouter);
 app.use('/computersprog', computersprogRouter);
 app.use('/computersprog1', computersprog1Router);
 app.use('/api', apiRouter);
+app.use('/webapplikationer1', webapplikationer1Router);
 
 
 // catch 404 and forward to error handler

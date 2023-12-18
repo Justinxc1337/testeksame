@@ -8,9 +8,15 @@ html(lang="en")
     link(rel="stylesheet", href="stylesheets/api.css")
   body.main
     .apidata
-      h1 CVR Virksomhed
+      h1 CVR
       input(type="text", id="cvrNumber", placeholder="Indtast CVR eller Navn")
       button(onclick="getCompanyInfo()") Hent Virksomhed
       div#companyInfo
-    div
-      h2
+
+    div(class="knapdiv") 
+      a(href="/", class="knap") Forside
+      a(href="/computersprog", class="knap") Computersprog
+      a(href="/webapplikationer", class="knap") Webapplikationer
+      a(href="/computersprog1", class="knap") Computersprog1
+      a(href="/api", class="knap") API
+      a(href="/webapplikationer1", class="knap") Webapplikationer1
