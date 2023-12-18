@@ -1,0 +1,47 @@
+.main {
+    background-color: rgb(189, 185, 185);
+}
+
+h1 {
+ color: rgb(194, 4, 4);
+ text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.apidata {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#companyInfo {
+    margin-top: 20px;
+}

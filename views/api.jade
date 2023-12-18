@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title CVR API
+    script(src="javascripts/api.js", type="text/javascript")
+    link(rel="stylesheet", href="stylesheets/api.css")
+  body.main
+    .apidata
+      h1 CVR Virksomhed
+      input(type="text", id="cvrNumber", placeholder="Indtast CVR eller Navn")
+      button(onclick="getCompanyInfo()") Hent Virksomhed
+      div#companyInfo
+    div
+      h2
